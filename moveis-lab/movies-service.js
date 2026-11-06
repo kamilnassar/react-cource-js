@@ -23,3 +23,29 @@ export const getDirectorTitles = (movies, directorName) =>
 
     export const getTopRated = (movies, count) =>
   [...movies].sort((a, b) => b.rating - a.rating).slice(0, count);
+
+    export const addMovie = (movies, movie) => [...movies, movie];
+
+    export const removeMovie = (movies, id) => movies.filter(movie => movie.id !== id);
+
+    export const updateRating = (movies, id, rating) =>
+  movies.map(movie => (movie.id === id ? { ...movie, rating } : movie));
+
+    export const toggleAvailable = (movies, id) =>
+  movies.map(movie =>
+    movie.id === id ? { ...movie, available: !movie.available } : movie
+  );
+
+  export const updateDirectorCountry = (movies, id, country) =>
+  movies.map(movie =>
+    movie.id === id
+      ? { ...movie, director: { ...movie.director, country } }
+      : movie
+  );
+
+  export const addReview = (movies, id, review) =>
+  movies.map(movie =>
+    movie.id === id
+      ? { ...movie, reviews: [...movie.reviews, review] }
+      : movie
+  );

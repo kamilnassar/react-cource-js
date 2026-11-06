@@ -1,0 +1,301 @@
+{
+  "site": "CinemaClub",
+  "updatedAt": "2026-10-24",
+  "movies": [
+    {
+      "id": 1,
+      "title": "Inception",
+      "year": 2010,
+      "genres": [
+        "Sci-Fi",
+        "Action"
+      ],
+      "rating": 8.8,
+      "duration": 148,
+      "available": true,
+      "director": {
+        "name": "Christopher Nolan",
+        "country": "UK"
+      },
+      "cast": [
+        {
+          "name": "Leonardo DiCaprio",
+          "role": "Cobb"
+        },
+        {
+          "name": "Joseph Gordon-Levitt",
+          "role": "Arthur"
+        },
+        {
+          "name": "Elliot Page",
+          "role": "Ariadne"
+        }
+      ],
+      "awards": {
+        "oscars": 4
+      },
+      "reviews": [
+        {
+          "score": 9,
+          "text": "Mind-blowing",
+          "author": {
+            "username": "dana_k",
+            "country": "IL"
+          }
+        },
+        {
+          "score": 8,
+          "text": "Great music",
+          "author": {
+            "username": "tom99",
+            "country": "US"
+          }
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "The Lion King",
+      "year": 1994,
+      "genres": [
+        "Animation",
+        "Drama"
+      ],
+      "rating": 8.5,
+      "duration": 88,
+      "available": true,
+      "director": {
+        "name": "Roger Allers",
+        "country": "USA"
+      },
+      "cast": [
+        {
+          "name": "Matthew Broderick",
+          "role": "Simba"
+        },
+        {
+          "name": "James Earl Jones",
+          "role": "Mufasa"
+        }
+      ],
+      "awards": {
+        "oscars": 2
+      },
+      "reviews": [
+        {
+          "score": 10,
+          "text": "My childhood",
+          "author": {
+            "username": "noa_l",
+            "country": "IL"
+          }
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Interstellar",
+      "year": 2014,
+      "genres": [
+        "Sci-Fi",
+        "Drama"
+      ],
+      "rating": 8.7,
+      "duration": 169,
+      "available": false,
+      "director": {
+        "name": "Christopher Nolan",
+        "country": "UK"
+      },
+      "cast": [
+        {
+          "name": "Matthew McConaughey",
+          "role": "Cooper"
+        },
+        {
+          "name": "Anne Hathaway",
+          "role": "Brand"
+        },
+        {
+          "name": "Jessica Chastain",
+          "role": "Murph"
+        }
+      ],
+      "awards": {
+        "oscars": 1
+      },
+      "reviews": [
+        {
+          "score": 10,
+          "text": "Beautiful",
+          "author": {
+            "username": "avi_m",
+            "country": "IL"
+          }
+        },
+        {
+          "score": 7,
+          "text": "Too long",
+          "author": {
+            "username": "tom99",
+            "country": "US"
+          }
+        },
+        {
+          "score": 9,
+          "text": "Emotional",
+          "author": {
+            "username": "dana_k",
+            "country": "IL"
+          }
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Parasite",
+      "year": 2019,
+      "genres": [
+        "Thriller",
+        "Drama"
+      ],
+      "rating": 8.5,
+      "duration": 132,
+      "available": true,
+      "director": {
+        "name": "Bong Joon-ho",
+        "country": "South Korea"
+      },
+      "cast": [
+        {
+          "name": "Song Kang-ho",
+          "role": "Kim Ki-taek"
+        },
+        {
+          "name": "Choi Woo-shik",
+          "role": "Kim Ki-woo"
+        }
+      ],
+      "awards": {
+        "oscars": 4
+      },
+      "reviews": [
+        {
+          "score": 9,
+          "text": "Unexpected",
+          "author": {
+            "username": "lior_s",
+            "country": "IL"
+          }
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Toy Story",
+      "year": 1995,
+      "genres": [
+        "Animation",
+        "Comedy"
+      ],
+      "rating": 8.3,
+      "duration": 81,
+      "available": true,
+      "director": {
+        "name": "John Lasseter",
+        "country": "USA"
+      },
+      "cast": [
+        {
+          "name": "Tom Hanks",
+          "role": "Woody"
+        },
+        {
+          "name": "Tim Allen",
+          "role": "Buzz"
+        }
+      ],
+      "reviews": []
+    },
+    {
+      "id": 6,
+      "title": "The Dark Knight",
+      "year": 2008,
+      "genres": [
+        "Action",
+        "Crime",
+        "Drama"
+      ],
+      "rating": 9,
+      "duration": 152,
+      "available": false,
+      "director": {
+        "name": "Christopher Nolan",
+        "country": "UK"
+      },
+      "cast": [
+        {
+          "name": "Christian Bale",
+          "role": "Bruce Wayne"
+        },
+        {
+          "name": "Heath Ledger",
+          "role": "Joker"
+        }
+      ],
+      "awards": {
+        "oscars": 2
+      },
+      "reviews": [
+        {
+          "score": 10,
+          "text": "Best villain ever",
+          "author": {
+            "username": "avi_m",
+            "country": "IL"
+          }
+        },
+        {
+          "score": 8,
+          "text": "Dark and strong",
+          "author": {
+            "username": "noa_l",
+            "country": "IL"
+          }
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Coco",
+      "year": 2017,
+      "genres": [
+        "Animation",
+        "Family"
+      ],
+      "rating": 8.6,
+      "duration": 105,
+      "available": true,
+      "director": {
+        "name": "Lee Unkrich",
+        "country": "USA"
+      },
+      "cast": [
+        {
+          "name": "Anthony Gonzalez",
+          "role": "Miguel"
+        }
+      ],
+      "reviews": [
+        {
+          "score": 9,
+          "text": "So funny",
+          "author": {
+            "username": "maya_r",
+            "country": "IL"
+          }
+        }
+      ]
+    }
+  ]
+}
