@@ -20,3 +20,9 @@ console.log(service.allHaveDirector(movies));
 
 const interstellar = service.getById(movies, 3);
 console.log(service.getCastNames(interstellar));
+
+console.log(service.getDirectorTitles(movies, "Christopher Nolan"));
+
+const top3 = service.getTopRated(movies, 3);
+console.log(top3.map(movie => `${movie.title}:${movie.rating}`));
+console.log(movies[0].title);
