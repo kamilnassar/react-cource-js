@@ -13,8 +13,8 @@ export const sortByYear = (movies) => [...movies].sort((a, b) => a.year - b.year
 
 export const markAsWatched = (movies, id) => {
   const movie = movies.find((movie) => movie.id === id);
-  movie.watched = true;
-  return movies;
+  const newMovies = {...movie, watched: true};
+  return newMovies;
 };
 
 export const renameActor = (movie, index, newName) => {
